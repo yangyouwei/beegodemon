@@ -36,5 +36,5 @@ type Topic struct {
 func RegisterDB()  {
 	orm.RegisterModel(new(Category),new(Topic))
 	orm.RegisterDriver("mysql",orm.DRMySQL)
-	orm.RegisterDataBase("default","mysql","root:gaopeng@tcp(192.168.2.250:3306)/orm?charset=utf8",10)
+	orm.RegisterDataBase("default","mysql","root:Yang@1008@tcp(192.168.1.101:3306)/orm?charset=utf8",10)
 }
